@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Added */
+
+.wrapper {
+  padding: 10px;
+  position: relative;
+  -webkit-user-select: none;
+  user-select: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 5px solid #f4f4f4;
+  display: inline-block;
+  min-width: 250px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-cell {
+  flex: 1 1 auto;
+}
+
+.divider {
+  align-self: center;
+  flex: 0;
+  padding: 0 10px;
+  color: #999;
+  font-size: 0.65em;
+}
+
+input[type=number] {
+  padding-right: 5px;
+}
+
+.input {
+  border: 1px solid #e0e0e0;
+}
+
+.cell .emoji {
+  width: 100%;
+}
+
+.cell {
+  -webkit-touch-callout: none;
+  width: 10px;
+  height: 10px;
+  font-size: 8px;
+  background-color: transparent;
+  border: 0;
+  display: inline-block;
+  position: relative;
+  padding: 2px 3px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+td {
+  border: 1px solid;
+  width: 50px;
+  height: 50px;
+}
